@@ -28,13 +28,17 @@
 
 .card {
     background-color: var(--advice-card-color);
-    max-width: 350px;
+    max-width: 500px;
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 40px 20px 58px;
     border-radius: 10px;
+}
+
+picture img {
+    width: 100%;
 }
 
 h1 {
@@ -48,7 +52,7 @@ p {
     font-size: 20px;
 }
 
-.advice-update {
+.advice-update-btn {
     background-color: var(--advice-dice-color);
     width: fit-content;
     width: 60px;
@@ -61,13 +65,13 @@ p {
     border: none;
 }
 
-.advice-update:active {
+.advice-update-btn:hover {
     cursor: pointer;
     box-shadow: 0 0 30px var(--advice-dice-color);    
 }
 
-@media (min-width: 450px) { 
+@media (max-width: 420px) {
     .card {
-        max-width: 500px;
+        margin: 10px;
     }
- }
+}
