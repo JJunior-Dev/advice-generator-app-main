@@ -3,15 +3,13 @@ const adviceNumber = document.getElementById('advice-number');
 const adviceDescription = document.getElementById('advice-description');
 const url = 'https://api.adviceslip.com/advice';
 
-async function fetchAdvice() {
+async function getAdvice() {
     const response = await fetch(url);
     const data = await response.json();
     adviceNumber.innerText = `Advice # ${data.slip.id}`;
     adviceDescription.innerText = `"${data.slip.advice}"`;
 };
 
-adviceUpdateButton.addEventListener('click', () => {
-    fetchAdvice();
-});
+adviceUpdateButton.addEventListener('click', getAdvice);
 
-fetchAdvice();
+getAdvice();
