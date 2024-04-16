@@ -6,7 +6,7 @@ const url = 'https://api.adviceslip.com/advice';
 async function getAdvice() {
     const response = await fetch(url);
     const data = await response.json();
-    adviceNumber.innerText = `Advice # ${data.slip.id}`;
+    adviceNumber.innerText = `Advice #${data.slip.id}`;
     adviceDescription.innerText = `"${data.slip.advice}"`;
 };
 
