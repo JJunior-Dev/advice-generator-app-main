@@ -25,8 +25,8 @@ Mobile view:<br>
 
 ### Links
 
-- Solution URL - [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL - [GitHub Pages](https://your-live-site-url.com)
+- Solution URL - [Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-18rEbn7wSy)
+- Live Site URL - [GitHub Pages](https://jjunior-dev.github.io/advice-generator-app-main/)
 
 ## My process
 
@@ -62,6 +62,6 @@ I think i have to study much more about coding in JavaScript.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- LinkedIn - [Jailton Junior](https://www.linkedin.com/in/dev-jjunior/)
+- GitHub - [JJunior-Dev](https://github.com/JJunior-Dev)
+- Frontend Mentor - [@JJunior-Dev](https://www.frontendmentor.io/profile/JJunior-Dev)
